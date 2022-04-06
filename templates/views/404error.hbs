@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   {{>headerlinks}}
+  </head>
+  <body>
+    {{>navbar}}
+    <!-- main header -->
+    <div class="container-fluid main-header">
+      <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+          <div class="row">
+            <!-- left-side-div -->
+            <div class="col-12 main-header-left align-items-center">
+              <figure>
+                <img
+                  height="700px"
+                  width="350px"
+                  src="image/404-2.png"
+                  alt="srutik"
+                  class="img-fluid"
+                  title="srutik-weather"
+                />
+              </figure>
+            
+              <p>Welcome to Weather app</p>
+              <h1>{{errorMsg}}</h1>
+              <a href="/"><button>Go Back</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer-code -->
+    {{>footer}}
+  </body>
+</html>
